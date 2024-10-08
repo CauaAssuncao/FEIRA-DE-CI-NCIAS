@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FEIRA DE CIÊNCIAS - CESA</title>
+</head>
+<body>
+
+    <section class="cover-image">
+        <img src="img/Capa Site.jpg" alt="Imagem de Capa">
+    </section>
+
+    <main>
+        <section class="search">
+            <h2>Pesquisar Postagens</h2>
+            <input type="text" id="search-input" placeholder="Pesquise...">
+            <button id="search-button">Buscar</button>
+        </section>
+
+        <section class="buttons">
+            <div class="carousel">
+                <div class="button-container">
+                    <a href="AgostoLilas.html" class="rectangle" style="background-image: url('img/botao.jpg');"></a>
+                    <a href="" class="rectangle" style="background-image: url('img/botao 1.jpg');"></a>
+                    <a href="" class="rectangle" style="background-image: url('img/botao 2.jpg');"></a>
+                    <a href="" class="rectangle" style="background-image: url('img/botao 3.jpg');"></a>
+                    <a href="" class="rectangle" style="background-image: url('img/botao 4.jpg');"></a>
+                    <a href="" class="rectangle" style="background-image: url('img/botao 5.jpg');"></a>
+                </div>
+            </div>
+            <div class="indicator-container">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </section>
+        
+        <article>
+            <h2>Postagem 1</h2>
+            <p>Este é o conteúdo da primeira postagem do blog. Aqui você pode escrever sobre diversos assuntos...</p>
+        </article>
+    
+        <article>
+            <h2>Postagem 2</h2>
+            <p>Aqui está a segunda postagem. Continue escrevendo e compartilhando suas ideias...</p>
+        </article>
+    
+        <article>
+            <h2>Postagem 3</h2>
+            <p>Essa é a terceira postagem. Utilize seu blog para se expressar e se conectar com outras pessoas...</p>
+        </article>
+    
+        <section class="comments">
+            <h2>Comentários</h2>
+            <input type="text" id="name" placeholder="Seu Nome">
+            <textarea id="comment" placeholder="Deixe seu comentário..."></textarea>
+            <button id="submit-comment">Enviar</button>
+            <div id="comment-list"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
